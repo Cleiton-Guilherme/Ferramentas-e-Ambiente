@@ -1,0 +1,46 @@
+.TodoList {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.Todos .Todo-item {
+    list-style-position: inside;
+    margin: 5px;
+    padding: 5px 15px;
+    border-radius: 10px;
+    background: #ced6e0;
+}
+
+.todo-register {
+    margin: 10px 0px;
+}
+
+.todo-register label {
+    display: block;
+    font-size: 14px;
+    color: #2d3446;
+}
+
+.todo-register input {
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    padding: 5px 10px;
+}
+
+.todo-register button {
+    padding: 5px 10px;
+    outline: none;
+    border: none;
+    background: #2ed573;
+    border-radius: 10px;
+    margin-left: 5px;
+}
